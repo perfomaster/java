@@ -1,11 +1,19 @@
 public class userScript {
     public static void main(String[] args) {
         vendor vm = new vendor();
-        vm.addProduct(new product("Яблоко", 20));
-        vm.addProduct(new product("Груша", 30));
-        vm.addProduct(new drink("Lipton", 40, 0.5, drinkType.COLDTEA));
-        vm.addProduct(new choco("Аленка", 40, 50));
+        // ADD PRODUCT - CHOCOLATE KINDER
+        vm.addProduct(new choco("KINDER", 40, 50));
 
+        // ADD PRODUCT - CHOCOLATE KINDER
+        vm.addProduct(new product("PINEAPPLE", 20));
+        
+        // ADD PRODUCT - CHOCOLATE KINDER
+        vm.addProduct(new product("MELON", 30));
+        
+        // ADD PRODUCT - CHOCOLATE KINDER
+        vm.addProduct(new drink("WATER", 40, 0.5, drinkType.COLDTEA));
+        
+        
         System.out.println(vm);
 
     }
