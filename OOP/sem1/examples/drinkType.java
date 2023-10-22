@@ -1,3 +1,4 @@
+package examples;
 public enum drinkType {
     JUICE,
     MINERALWATER,

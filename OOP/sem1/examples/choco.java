@@ -1,3 +1,4 @@
+package examples;
 public class choco extends product{
 
     int percentageOfCocoa;

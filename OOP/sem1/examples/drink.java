@@ -1,3 +1,4 @@
+package examples;
 public class drink extends product{
 
     double volume;

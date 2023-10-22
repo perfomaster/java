@@ -1,3 +1,4 @@
+package examples;
 public class userScript {
     public static void main(String[] args) {
         vendor vm = new vendor();
